@@ -4,17 +4,20 @@
 /**
  * @author Edson Valdez Cossio
  * @version 1.0
- * @created 22-jun.-2016 9:18:33
+ * @created 22-jun.-2016 9:31:52
  */
-class Usuario
+class Anfitrion
 {
 
 	var $id;
 	var $nombre;
+	var $m_Evento;
 
-	function Usuario()
+	function Anfitrion()
 	{
 	}
+
+
 
 	function getid()
 	{
@@ -43,8 +46,6 @@ class Usuario
 	{
 		$this->nombre = $newVal;
 	}
-
-
 
 }
 ?>
